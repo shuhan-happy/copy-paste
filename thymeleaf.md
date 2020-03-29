@@ -5,3 +5,7 @@
 遍历list
 
 	<th th:each="userhead : ${userhead}" th:text="${userhead.key}"></th>
+	
+图片
+
+	<img th:src="@{/qm/common/wx/qrcode?path=pages%2Fauth%2Fauth&width=300&scene=a}" src="#" class="qrcode"/>	
