@@ -21,7 +21,9 @@
 	
 ###LocalDateTime
 
-
+	// 两个时间间隔几个小时
+	Duration dur = Duration.between(answerDateTime, LocalDateTime.now());
+	long hours = dur.toHours();
 	
 ###convert
 
