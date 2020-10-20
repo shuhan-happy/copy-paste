@@ -13,3 +13,7 @@
 添加class
 
 	<a href="" class="baseclass" th:classappend="${isAdmin} ? adminclass : userclass"></a>
+
+读取url里的参数
+
+	${param.foo}
